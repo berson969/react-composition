@@ -1,8 +1,7 @@
 import React from 'react';
 import { Collapse } from "./Collapse.tsx";
-import { CollapseProps } from "./collapse.ts";
 
-export const CollapsePage: React.FC<CollapseProps> = () => {
+export const CollapsePage: React.FC = () => {
     return (
         <div className="container mx-auto mt-16">
             <Collapse >
